@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "lang2shell"
+version = "0.1.4"
+description = "A Python package to execute natural language commands as Linux shell commands using OpenAI."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^1.57.2"
+speechrecognition = "^3.12.0"
+
+[tool.poetry.scripts]
+lang2shell = "lang2shell.main:main"
+
